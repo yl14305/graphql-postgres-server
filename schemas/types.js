@@ -1,5 +1,5 @@
 const graphql = require("graphql");
-const { GraphQLObjectType, GraphQLString, GraphQLID } = graphql;
+const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLScalarType} = graphql;
 
 const StudentsType = new GraphQLObjectType({
   name: "students",
@@ -9,7 +9,15 @@ const StudentsType = new GraphQLObjectType({
     firstname: { type: GraphQLString },
     lastname: { type: GraphQLString },
     phonenumber: { type: GraphQLString },
-    recorded_datetime: { type: GraphQLString }
+    recorded_datetime: { type: new GraphQLScalarType({
+      name: 'Date',
+      parseValue(value) {
+        return new Date(value);
+      },
+      serialize(value) {
+        return value.toISOString();
+      },
+    }) }
   }
 });
 
