@@ -4,20 +4,21 @@
 - Feature CRUD operation
 
 ## Getting started
-1. Navigate to the directory (graphql-postgres-server) on cmd
-2. Install relevant modules
+1. git clone
+2. Navigate to the directory (graphql-postgres-server) on cmd
+3. Install relevant modules
 ```
 npm i
 ```
-3. Open pgAdmin and run the students_table.sql (/graphql-postgres-server/db/) in QueryTool
-4. Create an .env file in the /graphql-postgres-server folder. Fill in the settings based on your set-up
+4. Open pgAdmin and run the students_table.sql (/graphql-postgres-server/db/) in QueryTool
+5. Create an .env file in the /graphql-postgres-server folder. Fill in the settings based on your set-up
 ![env](/docs-image/env.PNG)
 
-5. For testing
+6. For testing
 ```
 node test.js
 ```
-6. Start the server
+7. Start the server
 ```
 node app.js
 ```
