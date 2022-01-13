@@ -4,7 +4,7 @@
 - Feature CRUD operation
 
 ## Getting started
-1. git clone
+1. git clone project
 2. Navigate to the directory (graphql-postgres-server) on cmd
 3. Install relevant modules
 ```
