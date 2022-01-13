@@ -29,7 +29,7 @@ node app.js
 ## How it works
 ![How it works](/docs-image/graphql-postgres.gif)
 
-## CRUD operation
+## CRUD operation commands (to use in GraphQL server)
 ### Adding student details
 ```
 mutation {
