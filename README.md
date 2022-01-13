@@ -22,7 +22,7 @@ node app.js
 ```
 ## Locate server port to change
 ### Line 23 (GraphQL server)
-![line23](/docs-image/line23.PNG)
+![line23](/docs-image/line23.png)
 
 ## How it works
 ![How it works](/docs-image/graphql-postgres.gif)
