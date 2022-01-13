@@ -21,7 +21,7 @@ node test.js
 node app.js
 ```
 ## Locate server port to change
-### Line 23 (GraphQL server)
+### Line 23 in app.js (GraphQL server)
 ![line23](/docs-image/line23.png)
 
 ## How it works
