@@ -11,7 +11,7 @@
 npm i
 ```
 4. Open pgAdmin and run the students_table.sql (/graphql-postgres-server/db/) in QueryTool
-5. Create an .env file in the /graphql-postgres-server folder. Fill in the settings based on your set-up
+5. Create an ".env" file in the /graphql-postgres-server folder. Fill in the settings based on your set-up
 ![env](/docs-image/env.PNG)
 
 6. For testing
