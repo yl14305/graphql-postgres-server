@@ -7,4 +7,4 @@ CREATE TABLE students(
 );
 
 INSERT INTO students (firstname, lastname, phonenumber, recorded_datetime)
-VALUES ('Yean Loong', 'Lim', +6738999989, current_timestamp)
+VALUES ('Dwayne', 'Johnson', +111111111, current_timestamp)
